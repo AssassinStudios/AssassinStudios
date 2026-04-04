@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Minecraft Skins</title>
+    <style>
+        body { font-family: sans-serif; background: #1a1a1a; color: white; text-align: center; margin: 0; padding: 20px; }
+        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+        .skin-card { background: #333; padding: 15px; border-radius: 10px; width: 250px; transition: 0.3s; }
+        .skin-card:hover { transform: scale(1.05); }
+        .skin-card img { width: 100%; border-radius: 5px; image-rendering: pixelated; }
+        .buy-btn { display: inline-block; background: #0070ba; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; font-weight: bold; }
+        .buy-btn:hover { background: #005ea6; }
+    </style>
+</head>
+<body>
+    <h1>My Minecraft Skin Shop</h1>
+    <p>Get high-quality, custom-made skins below!</p>
+
+    <div class="gallery">
+        <!-- Skin 1 -->
+        <div class="skin-card">
+            <img src="skin1_preview.png" alt="Skin 1 Preview">
+            <h3>Cyber Warrior</h3>
+            <p>$5.00</p>
+            <!-- Replace the # with your PayPal/Stripe link -->
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+
+        <!-- Add more skin-cards here -->
+    </div>
+</body>
+</html>
